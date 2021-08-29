@@ -1,0 +1,16 @@
+.headerContainer {
+    display: flex;
+    padding: 40px 80px;
+
+}
+
+.headerLinks {
+    font-size: .9em;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+
+.search {
+    margin-left: auto;
+}
