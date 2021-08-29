@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Header from './Header';
 
 function Main() {
   return (
     <div>
-      <Link to="/search">search</Link>
-      <div>App Placeholder</div>
+      <Header />
     </div>
   );
 }
