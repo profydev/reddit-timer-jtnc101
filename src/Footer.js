@@ -6,7 +6,7 @@ import FooterCSS from './Footer.module.css';
 function Footer() {
   return (
     <footer className={FooterCSS.container}>
-      <span>prof.dev</span>
+      <a href="https://profy.dev/employers" className={FooterCSS.links}>profy.dev</a>
       <Link to="/"><img src={sign} alt="sign" /></Link>
       <span>Terms & Pricing</span>
     </footer>
