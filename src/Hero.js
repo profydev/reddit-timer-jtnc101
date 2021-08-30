@@ -8,6 +8,8 @@ function Hero() {
       <span className={HeroCSS.subtitle}>
         Great timing, great results! Find the best time to post on your subreddit.
       </span>
+      <button type="button" className={HeroCSS.showMeButton}><span>SHOW ME THE BEST TIME</span></button>
+      <span className={HeroCSS.searchText}>r/javascript</span>
     </div>
   );
 }
