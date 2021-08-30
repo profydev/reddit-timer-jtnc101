@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroCSS from './Hero.module.css';
+import table from './images/table.png';
 
 function Hero() {
   return (
@@ -10,6 +11,7 @@ function Hero() {
       </span>
       <button type="button" className={HeroCSS.showMeButton}><span>SHOW ME THE BEST TIME</span></button>
       <span className={HeroCSS.searchText}>r/javascript</span>
+      <img src={table} alt="table" className={HeroCSS.tableImage} />
     </div>
   );
 }
