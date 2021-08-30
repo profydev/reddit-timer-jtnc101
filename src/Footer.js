@@ -8,7 +8,7 @@ function Footer() {
     <footer className={FooterCSS.container}>
       <a href="https://profy.dev/employers" className={FooterCSS.links}>profy.dev</a>
       <Link to="/"><img src={sign} alt="sign" /></Link>
-      <span>Terms & Pricing</span>
+      <Link to="/terms" className={FooterCSS.links}>Terms & Pricing</Link>
     </footer>
   );
 }

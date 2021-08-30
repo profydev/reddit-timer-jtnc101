@@ -5,7 +5,7 @@ function Terms() {
   return (
     <div>
       <Link to="/">Home</Link>
-      <div>Terms & Pricing</div>
+      <div>Terms and Pricing</div>
     </div>
   );
 }
